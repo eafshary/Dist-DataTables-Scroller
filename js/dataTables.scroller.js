@@ -520,7 +520,7 @@ $.extend( Scroller.prototype, {
 		this.dom.table = $('>table', this.dom.scroller)[0];
 		this.dom.table.style.position = "absolute";
 		this.dom.table.style.top = "0px";
-		this.dom.table.style.left = "0px";
+		this.dom.table.style.right = "0px";
 
 		// Add class to 'announce' that we are a Scroller table
 		$(this.s.dt.nTableWrapper).addClass('DTS');
